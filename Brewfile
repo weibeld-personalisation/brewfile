@@ -9,6 +9,7 @@ brew 'yq'
 brew 'fzf'
 brew 'gsed'
 brew 'gawk'
+brew 'ripgrep'
 
 # Cloud CLIs
 brew 'awscli'
@@ -28,6 +29,7 @@ brew 'pdftk-java'
 brew 'mupdf-tools'
 cask 'vlc'
 cask 'gimp'
+brew 'grip'
 
 # Miscellaneous apps and tools
 cask 'google-chrome'
