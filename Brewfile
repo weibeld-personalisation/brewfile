@@ -1,3 +1,5 @@
+# Note: quotes around formula or cask names are mandatory
+
 # Basic tools
 brew 'bash'
 brew 'bash-completion@2'
