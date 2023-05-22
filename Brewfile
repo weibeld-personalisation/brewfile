@@ -35,4 +35,5 @@ brew 'grip'
 
 # Miscellaneous apps and tools
 cask 'google-chrome'
+cask 'google-drive'
 cask 'fluor'
