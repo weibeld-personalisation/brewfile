@@ -12,6 +12,7 @@ brew 'fzf'
 brew 'gsed'
 brew 'gawk'
 brew 'ripgrep'
+brew 'tree'
 
 # Cloud CLIs
 brew 'awscli'
