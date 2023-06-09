@@ -12,6 +12,7 @@ brew 'yq'
 brew 'fzf'
 brew 'gsed'
 brew 'gawk'
+brew 'coreutils'
 brew 'ripgrep'
 brew 'tree'
 
