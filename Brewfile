@@ -28,7 +28,7 @@ brew 'terraform'
 
 # Multimedia tools
 brew 'imagemagick'
-brew 'inkscape'
+cask 'inkscape'
 brew 'ffmpeg'
 brew 'gifsicle'
 brew 'pdftk-java'
