@@ -16,6 +16,7 @@ brew 'gawk'
 brew 'coreutils'
 brew 'ripgrep'
 brew 'tree'
+brew 'minicom'
 
 # Cloud CLIs
 brew 'awscli'
