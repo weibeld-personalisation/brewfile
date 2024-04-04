@@ -33,9 +33,10 @@ brew 'pdftk-java'
 brew 'mupdf-tools'
 
 # Misc
-cask 'fluor'
 brew 'grip'
 brew 'minicom'
+cask 'fluor'
+cask 'caffeine'
 
 # GUI applications
 cask 'vlc'
