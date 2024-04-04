@@ -18,15 +18,9 @@ brew 'ripgrep'
 brew 'tree'
 
 # Programming languages
+brew 'go'
 brew 'node'
-
-# Cloud and DevOps
-brew 'awscli'
-brew 'azure-cli'
-cask 'google-cloud-sdk'
-cask 'docker'
-brew 'kubernetes-cli'
-brew 'terraform'
+brew 'openjdk'
 
 # Multimedia
 brew 'imagemagick'
@@ -47,3 +41,12 @@ cask 'gimp'
 cask 'inkscape'
 cask 'google-chrome'
 cask 'google-drive'
+
+# Specialised tools (uncomment if not needed)
+brew 'awscli'
+brew 'azure-cli'
+cask 'google-cloud-sdk'
+cask 'docker'
+brew 'kubernetes-cli'
+brew 'terraform'
+cask 'android-studio'
