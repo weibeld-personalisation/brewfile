@@ -1,6 +1,6 @@
-# Note: quotes around formula or cask names are mandatory
+# IMPORTANT: quotes around formula or cask names are mandatory
 
-# Basic tools
+# Basic
 cask 'iterm2'
 brew 'bash'
 brew 'bash-completion@2'
@@ -16,30 +16,30 @@ brew 'gawk'
 brew 'coreutils'
 brew 'ripgrep'
 brew 'tree'
-brew 'minicom'
 
-# Cloud CLIs
+# Cloud and DevOps
 brew 'awscli'
 brew 'azure-cli'
 cask 'google-cloud-sdk'
-
-# Container and DevOps tools
 cask 'docker'
 brew 'kubernetes-cli'
 brew 'terraform'
 
-# Multimedia tools
+# Multimedia
 brew 'imagemagick'
-cask 'inkscape'
 brew 'ffmpeg'
 brew 'gifsicle'
 brew 'pdftk-java'
 brew 'mupdf-tools'
+
+# Misc
+cask 'fluor'
+brew 'grip'
+brew 'minicom'
+
+# GUI applications
 cask 'vlc'
 cask 'gimp'
-brew 'grip'
-
-# Miscellaneous apps and tools
+cask 'inkscape'
 cask 'google-chrome'
 cask 'google-drive'
-cask 'fluor'
