@@ -36,11 +36,15 @@ cask 'fluor'
 cask 'caffeine'
 
 # GUI applications
-cask 'vlc'
+cask 'sketch'
+cask 'omnigraffle'
+cask 'affinity-designer'
 cask 'gimp'
 cask 'inkscape'
 cask 'google-chrome'
 cask 'google-drive'
+cask 'libreoffice'
+cask 'vlc'
 
 # Specialised tools (uncomment if not needed)
 brew 'awscli'
