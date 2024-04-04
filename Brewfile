@@ -17,6 +17,9 @@ brew 'coreutils'
 brew 'ripgrep'
 brew 'tree'
 
+# Programming languages
+brew 'node'
+
 # Cloud and DevOps
 brew 'awscli'
 brew 'azure-cli'
