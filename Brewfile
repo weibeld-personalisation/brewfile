@@ -1,12 +1,13 @@
 # Note: quotes around formula or cask names are mandatory
 
 # Basic tools
+cask 'iterm2'
 brew 'bash'
 brew 'bash-completion@2'
-cask 'iterm2'
 brew 'tmux'
 brew 'reattach-to-user-namespace'
 cask 'git-credential-manager'
+brew 'gh'
 brew 'jq'
 brew 'yq'
 brew 'fzf'
