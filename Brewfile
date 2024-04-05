@@ -1,4 +1,11 @@
-# IMPORTANT: quotes around formula or cask names are mandatory
+# Notes:
+#   - Quotes around formula or cask names are mandatory
+#   - Run 'sudo -v' before running this Brewfile in order to prevent
+#     interrupting the process by password prompts
+#------------------------------------------------------------------------------#
+
+# Known to require root privileges (sudo)
+cask 'google-cloud-sdk'
 
 # Basic
 cask 'iterm2'
@@ -49,7 +56,6 @@ cask 'vlc'
 # Specialised tools (uncomment if not needed)
 brew 'awscli'
 brew 'azure-cli'
-cask 'google-cloud-sdk'
 cask 'docker'
 brew 'kubernetes-cli'
 brew 'terraform'
