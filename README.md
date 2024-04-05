@@ -1,30 +1,20 @@
-# Brewfile
+# Install: Brewfile
 
-[Brewfile](https://thoughtbot.com/blog/brewfile-a-gemfile-but-for-homebrew) with an inital foundation of tools and apps to be installed on a new macOS machine.
+![macOS](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/macos.svg)
 
-This is intended to be used with [`brew bundle`](https://github.com/Homebrew/homebrew-bundle).
+Install Homebrew formulas and casks from a [Brewfile](https://github.com/Homebrew/homebrew-bundle).
 
-## Usage
+## Installation
 
+### macOS
 
-Install entire content of Brewfile:
+![macOS](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/macos.svg)
 
-```bash
-brew bundle install
-```
+1. Download the [Brewfile](https://raw.githubusercontent.com/weibeld-setup/install-brewfile/main/Brewfile)
+1. Run:
+   ```bash
+   sudo -v
+   brew bundle install
+   ```
 
-Verify installation:
-
-```bash
-brew bundle check
-```
-
-> Note: all commands have to be executed from the directory where `Brewfile` is located. Otherwise, you can also specify the location of the Brewfile with `--file`.
-
-## Dependencies
-
-The only requirement for installing the Brewfile is [Homebrew](https://brew.sh/) which can be installed as follows:
-
-```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+> Note: `sudo -v` prevents the installation process from being interrupted by password prompts for formulas or casks that require root privileges (subject to the `sudo` timeout period).
