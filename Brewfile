@@ -53,10 +53,11 @@ cask 'google-drive'
 cask 'libreoffice'
 cask 'vlc'
 
-# Specialised tools (uncomment if not needed)
+# Optional tools (uncomment if not needed)
 brew 'awscli'
 brew 'azure-cli'
 cask 'docker'
 brew 'kubernetes-cli'
 brew 'terraform'
 cask 'android-studio'
+#cask 'visual-studio-code'
