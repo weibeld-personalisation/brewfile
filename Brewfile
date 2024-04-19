@@ -23,6 +23,7 @@ brew 'gawk'
 brew 'coreutils'
 brew 'ripgrep'
 brew 'tree'
+brew 'wget'
 
 # Programming languages
 brew 'go'
