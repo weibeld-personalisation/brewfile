@@ -11,7 +11,7 @@ Install Homebrew formulas and casks from a [Brewfile](https://github.com/Homebre
 ![macOS](https://raw.githubusercontent.com/weibeld-setup/.github/main/badge/macos.svg)
 
 1. Download the [Brewfile](https://raw.githubusercontent.com/weibeld-setup/install-brewfile/main/Brewfile)
-1. Run:
+1. Run the following in the same directory as the Brewfile:
    ```bash
    sudo -v
    brew bundle install
