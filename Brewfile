@@ -53,6 +53,7 @@ cask 'inkscape'
 cask 'google-chrome'
 cask 'google-drive'
 cask 'libreoffice'
+cask 'notion'
 cask 'vlc'
 
 # Optional tools (uncomment if not needed)
