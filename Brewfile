@@ -43,6 +43,7 @@ brew 'grip'
 brew 'minicom'
 cask 'fluor'
 cask 'caffeine'
+cask 'keyboardcleantool'
 
 # GUI applications
 cask 'sketch'
