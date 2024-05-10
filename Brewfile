@@ -27,6 +27,7 @@ brew 'coreutils'
 brew 'ripgrep'
 brew 'tree'
 brew 'wget'
+brew 'iproute2mac'
 
 # Programming languages
 brew 'go'
